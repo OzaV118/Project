@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="Css/animate.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Css/animate.min.css">
+<style>
+     a
+    {
+        text-decoration: none;
+        color: white;
+        transition: all 1s;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+        font-size:15px;
+        transition: all 1s;
+    }
+      *
+    {
+        margin: 0%;
+        line-height: 1.75;
+        font-family: Playfair Display;
+    }
+    .left
+    {
+        width: 18%;
+        display:inline-block;
+        height: 100%;
+        background-color:rgb(34, 37, 39);
+        color: white;
+        vertical-align: top;
+        margin: -2px;
+        text-align: center;
+        position:fixed;
+    }
+    .right
+    {
+        width: 79%;
+        height: 100%;
+        padding-bottom: 20px;
+        padding-left: 320px;
+        color: white;
+        margin:-2px;
+        background-color: rgb(26,28, 30);
+        
+        display:inline-block;
+        vertical-align: top;
+        
+    }
+    .left h2,.left h4
+    {
+        
+        color: white;
+        margin: 0;
+        font-weight: normal;
+        transition: all .5s;
+    }
+    .left h2:hover
+    {
+        cursor: pointer;
+        font-size:20px;
+        text-shadow: 5px 4px 6px gray;
+        transition:all .5s;
+
+        
+    }
+    #hov
+    {
+        list-style: none;
+        font-size: 20px;
+        font-weight: normal;
+    }
+     #hov:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+        font-size:18px;
+        text-shadow: 5px 4px 6px gray;
+         transition:all .5s;
+
+         border: 5px solid gray;
+            border-radius: 27px;
+            background-color: black;
+            color: white;
+
+    }
+     
+    p
+    {
+        font-size: 18px;
+        text-align: justify;
+
+    }
+    .content1
+        {
+             
+            vertical-align: top;
+            width: 70%;
+            height: 100%;
+            padding-bottom: 10px;
+            padding-left: 60px;
+            padding-right: 100px;
+            padding-top: 60px;
+            margin-left: 110px;
+            background-color:wheat;
+            color:  rgb(34, 37, 39);
+            font-size: 18px;
+        }
+        .home
+{
+   
+     margin-left: 350px;
+  background-color:#a370f0 ;
+  padding: 10px;
+  border-radius: 40px;
+}
+.home:hover
+{
+    
+  text-decoration: underline;
+  background-color: #714da6;
+}
+.dropbtn1 {
+  background:transparent;
+  color: white;
+  /* padding: 12px; */
+  font-weight: 300;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown1 {
+  position: relative;
+  /* padding-bottom : 15px; */
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  text-align: center;
+  position: absolute;
+  background-color: rgb(52 55 57);
+  min-width: 160px;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: white;
+  text-align:center;
+  /* padding: 12px 27px; */
+  /* vertical-align: top; */
+  /* font-size: larger; */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover { color: white;
+background-color: rgb(90, 71, 153);
+}
+/* .dropdown-content1 a
+{
+	color:white;
+     background:rgb(52 55 57);
+} */
+.dropdown1:hover .dropdown-content1 {display: block;
+ 
+}
+
+.dropdown1:hover .dropbtn1 {
+  
+/* color: white;*/
+/* background-color: rgb(90, 71, 153); */
+/* border: 3px solid black; */
+/* transition:all  ease  .2s;*/ 
+text-decoration: underline;
+transition: all 1s;
+/* border-radius: 50px; */
+cursor: pointer;} 
+        </style>
+</head>
+<body>
+    <div class="left">
+        <img  id="logo" src="Images/jkass.jpg" width="100px" height="100px" style="border-radius: 50%;">
+           <a href="mera bharat.html"> <h2> JKASS's School of Excellency</h2></a>
+            <h4><i>For Humanity & Excellency</i></h4>
+            <ul  style="padding-top: 150px;" type="bullet">
+            <a href="mera bharat.html">    <li id="hov" style="padding-bottom: 10px;" >Home </li></a> 
+            <a href="feedback.html">    <li id="hov" style="padding-bottom: 10px;">Feedback</li> </a>
+         <a href="https://syllabus.gtu.ac.in/Syllabus.aspx?tp=DI">       <li id="hov" style="padding-bottom: 10px;">Syllabus</li>  </a>
+         
+         <li id="hov" style="padding-bottom: 10px;"><div class="dropdown1">
+            <button class="dropbtn1"><h4>RESULTS</h4></button>
+            <div class="dropdown-content1">
+              <a href="Images/gtu.pdf">GTU-2023</a>
+              <a href="Images/me.pdf">Mid Term</a>
+               
+            </div>
+          </div> </li>  
+            </ul>
+        </div>
+    <div class="right">
+        <div class="content1">
+        <h3 style="color: gray;">School Office Timings :<br></h3>
+ The School Office functions from 9:30 a.m. to 1:00 p.m. and from 2:00 p.m. to 4:15 p.m. on
+all working days from Monday to Friday. <br> <br>
+<h3 style="color: gray;"> Official Correspondence :</h3> <br>
+i) All official correspondence with the school is to be addressed to The Principle.
+ii) Please do not write official letters or correspond to the Class/Subject Teacher on matters
+for which decisions can only be taken by the Principle. The school will correspond with
+parents asking them to meet the Principle personally, regarding the progress of their child on
+for any other reason. Please treat such request as URGENT as they are concerned solely
+with the welfare of your child.
+iii) Parents are requested to mention their phone number or mobile number in all
+correspondence with the School, so that the school can contact with the least possible delay.
+Any change in the residence or phone number is to be communicated to the School
+immediately<br><br>
+<ul>
+<li> Information regarding the current rate of Monthly Tution fees, term fees etc., are
+displayed on the Notice Board. Fees are to be paid Term wise.</li>
+<li> The staff salaries and establishment expenses of the School are met entirely from the fees
+that the School receives from the parents. It becomes very difficult for the school to function
+properly if the fees are not paid in time. Please pay your Child’s fees in time.</li>
+<li> Fees are to be paid in Cash at Government bank in Adipur, after obtaining the Fees
+challan from the School Office.</li>
+ <li>Concession: Term fee concessions are available for needy students provided they do
+well in their studies. The Application for Fees Concession must reach the Secretary,
+Governing Body in time. The final authority for awarding the Concession is with the School
+Management Committee.</li>
+<li>Meeting Principal:<br>
+ The timings for meeting the Principal, Vice – Principal and incharges are displayed in the
+school office Notice Board.</li> 
+</ul> 
+<a href="mera bharat.html" class="home">Go To Home</a>
+        </div>
+    </div>
+</body>
+</html>

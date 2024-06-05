@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="Css/animate.min.css">
+    <script src="submit.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Playfair Display;
+    line-height: 2.1; 
+}
+        .container {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  /* background-color: #050A44; */
+  background-color:rgb(34, 37, 39);
+  color: white;
+  padding: 25px;
+   border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.container header {
+  font-size: 1.2rem;
+  color:white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container .form {
+  margin-top: 15px;
+}
+
+.form .input-box {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.input-box label {
+  color: white;
+}
+
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 35px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: gray;
+  margin-top: 5px;
+  border: 1px solid #EE4E34;
+  border-radius: 6px;
+  padding: 0 15px;
+  background: #FCEDDA;
+}
+
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+
+.form .gender-box {
+  margin-top: 10px;
+}
+
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+
+.form .gender {
+  column-gap: 5px;
+}
+
+.gender input {
+  accent-color: #EE4E34;
+}
+
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+
+.gender label {
+  color: white;
+}
+
+.address :where(input, .select-box) {
+  margin-top: 10px;
+}
+
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #808080;
+  font-size: 1rem;
+  background: #FCEDDA;
+}
+
+.form button {
+  height: 40px;
+  width: 100%;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #EE4E34;
+}
+
+.form button:hover {
+  background: #EE3E34;
+}
+ 
+  
+*
+    {
+        margin: 0%;
+        line-height: 1.75;
+        font-family: Playfair Display;
+    }
+    .left
+    {
+        width: 18%;
+        display:inline-block;
+        height: 200vw;
+        background-color:rgb(34, 37, 39);
+        color: white;
+        vertical-align: top;
+        margin: -2px;
+        text-align: center;
+        position:fixed;
+    }
+    .left ul li
+    {
+        list-style: none;
+        font-size: large;
+    }
+    .right
+    {
+        width: 100%;
+        height: 120.2vh;
+        padding-left: 320px;
+        color: white;
+        margin:-2px;
+        background-color: rgb(26,28, 30);
+        
+        display:inline-block;
+        vertical-align: top;
+        
+    }
+    .left h2,.left h4
+    {
+        
+        color: white;
+        margin: 0;
+        font-weight: normal;
+        transition: all .5s;
+    }
+    .left h2:hover
+    {
+        cursor: pointer;
+        font-size:20px;
+        text-shadow: 5px 4px 6px gray;
+        transition:all .5s;
+
+        
+    }
+    #hov
+    {
+        font-weight: normal;
+    }
+     #hov:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+        font-size:18px;
+        text-shadow: 5px 4px 6px gray;
+         transition:all .5s;
+            border: 5px solid gray;
+            border-radius: 27px;
+            background-color: black;
+            color: white;
+    }
+    a
+    {
+        text-decoration: none;
+        color: white;
+        transition: all 1s;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+        font-size:15px;
+        transition: all 1s;
+    }
+    .content
+        {
+             
+            vertical-align: top;
+            width: 70%;
+            padding-bottom: 50px;
+            height: 120vh;
+            padding-left: 150px;
+            padding-right: 100px;
+            padding-top: 60px;
+            margin-left: 160px;
+            background-color:wheat;
+        }
+        .cyberpunk-checkbox {
+            text-align: left;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #30cfd0;
+  border-radius: 5px;
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cyberpunk-checkbox:before {
+  content: "";
+  background-color: #30cfd0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cyberpunk-checkbox:checked:before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.cyberpunk-checkbox-label {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+}
+.cssbuttons-io-button {
+        
+        background: #a370f0;
+        color: white;
+        font-family: inherit;
+        padding: 0.35em;
+        padding-left: 1.2em;
+        font-size: 17px;
+        text-align: center;
+        font-weight: 500;
+        border-radius: 0.9em;
+        border: none;
+        letter-spacing: 0.05em;
+        display: flex;
+        /* align-items: center; */
+        box-shadow: inset 0 0 1.6em -0.6em #714da6;
+        overflow: hidden;
+        position: relative;
+        height: 2.8em;
+        padding-right: 3.3em;
+        cursor: pointer;
+      }
+      
+      .cssbuttons-io-button .icon {
+        background: white;
+        margin-left: 1em;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.2em;
+        width: 2.2em;
+        border-radius: 0.7em;
+        box-shadow: 0.1em 0.1em 0.6em 0.2em #7b52b9;
+        right: 0.3em;
+        transition: all 0.3s;
+      }
+      
+      .cssbuttons-io-button:hover .icon {
+        width: calc(100% - 0.6em);
+      }
+      
+      .cssbuttons-io-button .icon svg {
+        width: 1.1em;
+        transition: transform 0.3s;
+        color: #7b52b9;
+      }
+      
+      .cssbuttons-io-button:hover .icon svg {
+        transform: translateX(0.1em);
+      }
+      
+      .cssbuttons-io-button:active .icon {
+        transform: scale(0.95);
+      }
+      .home
+{
+  background-color:#a370f0 ;
+  padding: 10px;
+  margin-left: 350px;
+  border-radius: 40px;
+}
+.home:hover
+{
+  text-decoration: underline;
+  background-color: #714da6;
+}
+.dropbtn1 {
+  background:transparent;
+  color: white;
+  /* padding: 12px; */
+  font-weight: 300;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown1 {
+  position: relative;
+  /* padding-bottom : 15px; */
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  text-align: center;
+  position: absolute;
+  background-color: rgb(52 55 57);
+  min-width: 160px;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: white;
+  text-align:center;
+  /* padding: 12px 27px; */
+  /* vertical-align: top; */
+  /* font-size: larger; */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover { color: white;
+background-color: rgb(90, 71, 153);
+}
+/* .dropdown-content1 a
+{
+	color:white;
+     background:rgb(52 55 57);
+} */
+.dropdown1:hover .dropdown-content1 {display: block;
+ 
+}
+
+.dropdown1:hover .dropbtn1 {
+  
+/* color: white;*/
+/* background-color: rgb(90, 71, 153); */
+/* border: 3px solid black; */
+/* transition:all  ease  .2s;*/ 
+text-decoration: underline;
+transition: all 1s;
+/* border-radius: 50px; */
+cursor: pointer;} 
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img  id="logo" src="Images/jkass.jpg" width="100px" height="100px" style="border-radius: 50%;">
+           <a href="mera bharat.html"> <h2> JKASS's School of Excellency</h2></a>
+            <h4><i>For Humanity & Excellency</i></h4>
+            <ul  style="padding-top: 150px;" type="bullet">
+            <a href="mera bharat.html">    <li id="hov" style="padding-bottom: 10px;" >Home </li></a> 
+            <a href="feedback.html">    <li id="hov" style="padding-bottom: 10px;">Feedback</li> </a>
+         <a href="https://syllabus.gtu.ac.in/Syllabus.aspx?tp=DI">       <li id="hov" style="padding-bottom: 10px;">Syllabus</li>  </a>
+          
+         <li id="hov" style="padding-bottom: 10px;">  <div class="dropdown1">
+          <button class="dropbtn1"><h4>RESULTS</h4></button>
+          <div class="dropdown-content1">
+            <a href="Images/gtu.pdf">GTU-2023</a>
+            <a href="Images/me.pdf">Mid Term</a>
+             
+          </div>
+        </div></li>  
+            </ul>
+        </div>
+    <div class="right">
+        <div class="content">
+            <section class="container">
+  <header><h1>Admission Form</h1></header>
+  <form class="form"   onsubmit="return fun()" action="re.html" >
+      <div class="input-box">
+          <label>Full Name*</label>
+          <input required id="name" name="fname"  placeholder="Enter full name*" type="text">
+          <label>Father's Name*</label>
+          <input required id="fn" placeholder="Enter Father's name*" type="text"> 
+          <label>Mother's Name*</label>
+          <input required id="mn" placeholder="Enter Mother's name*" type="text">
+      </div>
+      <div class="column">
+          <div class="input-box">
+            <label>Phone Number*</label>
+            <input required id="pn" placeholder="Enter phone number*" type="telephone">
+          </div>
+          <div class="input-box">
+            <label>Birth Date*</label>
+            <input required id="" placeholder="Enter birth date*" type="date">
+          </div>
+      </div>
+      <div class="gender-box">
+        <label>Gender</label>
+        <div class="gender-option">
+          <div class="gender">
+            <input checked="" name="gender" id="check-male" type="radio">
+            <label for="check-male">Male</label>
+          </div>
+          <div class="gender">
+            <input name="gender" id="check-female" type="radio">
+            <label for="check-female">Female</label>
+          </div>
+          <div class="gender">
+            <input name="gender" id="check-other" type="radio">
+            <label for="check-other">Other</label>
+          </div>
+        </div>
+      </div>
+      <div class="input-box address">
+        <label>Address*</label>
+        <input required id="addd" placeholder="Enter street address" type="text" aria-required="true">
+         
+        <div class="column">
+          <!-- <div class="select-box" aria-required="true"> -->
+            <!-- <select>
+              <option hidden="">State*</option>
+              <option>Gujrat</option>
+              <option>Punjab</option>
+              <option>Chennai</option>
+              <option>Rajasthan</option>
+            </select> -->
+            <input type="text" placeholder="State*" required id="st" required >
+          
+        <input required id="ct" placeholder="Enter your city*" type="text">
+        </div>
+      </div><br>
+      <a href="terms.html"><h6>Terms & Conditions</h6></a>
+      <label class="cyberpunk-checkbox-label">
+        <input type="checkbox" class="cyberpunk-checkbox" required required id="">
+        Terms & Conditions are applied.</label>
+        <button class="cssbuttons-io-button" type="submit" style="text-align: center;padding-left: 200px;">
+          Submit  
+          <!-- <input type="submit"   style="background-color: transparent;border: none;" onclick=""> -->
+            <div class="icon">
+              <svg
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path 
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              
+            </div>
+          </div>
+          
+          
+          
+      </button>
+    
+    </form>
+  </section>
+ 
+</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+        *
+        {
+            margin: 0px;
+            padding: 0px;
+             
+            line-height: 3.9;
+        }
+        .main1
+        {
+            width: 100%;
+            height: auto;
+        }
+        .image1
+        {
+            width: 32.33%;
+            display: inline-block;
+        }
+        .image1 img
+        {
+            border: 2px solid red;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px 5px gray;
+            vertical-align: text-top;
+            width: 100%;
+            height: auto;
+        }
+        .content1
+        {
+            text-align: justify;
+            text-shadow: 2px 2px 2px 2px gray;
+            vertical-align: top;
+            width: 32.33%;
+            display: inline-block;
+        }
+        
+        

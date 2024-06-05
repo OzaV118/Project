@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="Css/animate.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Css/animate.min.css">
+<style>
+     a
+    {
+        text-decoration: none;
+        color: white;
+        transition: all 1s;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+        font-size:15px;
+        transition: all 1s;
+    }
+      *
+    {
+        margin: 0%;
+        line-height: 1.75;
+        font-family: Playfair Display;
+    }
+    .left
+    {
+        width: 18%;
+        display:inline-block;
+        height: 200vw;
+        background-color:rgb(34, 37, 39);
+        color: white;
+        vertical-align: top;
+        margin: -2px;
+        text-align: center;
+        position:fixed;
+    }
+    .right
+    {
+        width: 79%;
+        height: 100%;
+        padding-left: 320px;
+        color: white;
+        margin:-2px;
+        background-color: rgb(26,28, 30);
+        padding-bottom: 20px;
+        display:inline-block;
+        vertical-align: top;
+        
+    }
+    .left h2,.left h4
+    {
+        
+        color: white;
+        margin: 0;
+        font-weight: normal;
+        transition: all .5s;
+    }
+    .left h2:hover
+    {
+        cursor: pointer;
+        font-size:20px;
+        text-shadow: 5px 4px 6px gray;
+        transition:all .5s;
+
+        
+    }
+    #hov
+    {
+        list-style: none;
+        font-size: 20px;
+        font-weight: normal;
+    }
+     #hov:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+        font-size:18px;
+        text-shadow: 5px 4px 6px gray;
+         transition:all .5s;
+
+         border: 5px solid gray;
+            border-radius: 27px;
+            background-color: black;
+            color: white;
+
+    }
+     
+    p
+    {
+        font-size: 18px;
+        text-align: justify;
+
+    }
+    .content1
+        {
+             
+            vertical-align: top;
+            width: 70%;
+            height: 100%;
+            padding-bottom: 10px;
+            padding-left: 60px;
+            padding-right: 100px;
+            padding-top: 60px;
+            margin-left: 110px;
+            background-color:wheat;
+            color:  rgb(34, 37, 39);
+            font-size: 18px;
+        }
+        .home
+{
+  background-color:#a370f0 ;
+  margin-left: 350px;
+  padding: 10px;
+  border-radius: 40px;
+}
+.home:hover
+{
+  text-decoration: underline;
+  background-color: #714da6;
+}
+ 
+.dropbtn1 {
+  background:transparent;
+  color: white;
+  /* padding: 12px; */
+  font-weight: 300;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown1 {
+  position: relative;
+  /* padding-bottom : 15px; */
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  text-align: center;
+  position: absolute;
+  background-color: rgb(52 55 57);
+  min-width: 160px;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: white;
+  text-align:center;
+  /* padding: 12px 27px; */
+  /* vertical-align: top; */
+  /* font-size: larger; */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover { color: white;
+background-color: rgb(90, 71, 153);
+}
+/* .dropdown-content1 a
+{
+	color:white;
+     background:rgb(52 55 57);
+} */
+.dropdown1:hover .dropdown-content1 {display: block;
+ 
+}
+
+.dropdown1:hover .dropbtn1 {
+  
+/* color: white;*/
+/* background-color: rgb(90, 71, 153); */
+/* border: 3px solid black; */
+/* transition:all  ease  .2s;*/ 
+text-decoration: underline;
+transition: all 1s;
+/* border-radius: 50px; */
+cursor: pointer;} 
+        </style>
+</head>
+<body>
+    <div class="left">
+        <img  id="logo" src="Images/jkass.jpg" width="100px" height="100px" style="border-radius: 50%;">
+           <a href="mera bharat.html"> <h2> JKASS's School of Excellency</h2></a>
+            <h4><i>For Humanity & Excellency</i></h4>
+            <ul  style="padding-top: 150px;" type="bullet">
+            <a href="mera bharat.html">    <li id="hov" style="padding-bottom: 10px;" >Home </li></a> 
+            <a href="feedback.html">    <li id="hov" style="padding-bottom: 10px;">Feedback</li> </a>
+         <a href="https://syllabus.gtu.ac.in/Syllabus.aspx?tp=DI">       <li id="hov" style="padding-bottom: 10px;">Syllabus</li>  </a>
+          
+         <li id="hov" style="padding-bottom: 10px;">  <div class="dropdown1">
+            <button class="dropbtn1"><h4>RESULTS</h4></button>
+            <div class="dropdown-content1">
+              <a href="Images/gtu.pdf">GTU-2023</a>
+              <a href="Images/me.pdf">Mid Term</a>
+               
+            </div>
+          </div></li>  
+            </ul>
+        </div>
+        <div class="right">
+            <h1 align="center">High School Debate Competition</h1><br>
+            <div class="content1">
+                <p>Using debates in the classroom provide students the opportunity to work in a collaborative and cooperative group setting. By having students discuss and organize their points of view for one side of an argument they are able to discover new information and put knowledge into action. Classroom debates help students learn through friendly competition, examine controversial topics and “strengthen skills in the areas of leadership, interpersonal influence, teambuilding, group problem solving, and oral presentation.</p> <br>
+                <p>Debates can be used in all disciplines on a wide range of topics. Here are some examples of subject matter topics for debate which can easily be adapted for a variety of subject areas. <br> <br>
+
+                    Arts - There should no restrictions upon artistic expression <br> <br>
+                    Business - Corporations should be abolished <br> <br>
+                    Education - Intelligence testing is without value <br> <br>
+                    Engineering - Only bridges over waterways need to be routinely inspected <br> <br>
+                    Sociology - It is morally okay to break laws you don't agree with <br> <br>
+                    English - Language is not a skill <br> <br>
+                    Geology - Mountain top mining is good for the economy <br> <br>
+                    Health - There is nothing morally wrong with doing drugs <br> <br>
+                    Mathematics - Elementary school mathematics should be confined largely to arithmetic <br> <br>
+                    Science - The theory of evolution is based on both science and faith <br> <br></p> <br> 
+                    <img src="Images/de.jpg" style="width: 100%;"> <br>
+                <h3 style="color: gray;">Debate Format</h3> <br>
+                    <p>
+                
+                    
+Teams work well for classroom debates but two students can be paired as well. Adapt the following format to fit your specific goals and objectives. Adding a third, shorter round will allow teams to further defend their arguments.
+<br>
+Alternatively, have all students prepare both a pro and con position for a designated class session. During this class period two teams are randomly selected who will then state their arguments. The other students will contribute differing remarks and suggestions for a more active and well-prepared class discussion. <br> <br>
+                        <h3 style="color: gray;"> Round One <br></h3>
+<p>
+                       
+1.Team One - 10 Minutes - Presentation of "Pro/positive" or "Arguments for" <br>
+2.Team Two - 10 Minutes - Presentation of "Con/negative" or "Arguments against" <br>
+                    </p> <br>
+                </p>
+                <img src="Images/de1.jpg" style="width: 100%;"> <br>
+                <h3 style="color: gray;">Team Discussion Period</h3> <br>
+                <p>
+                    
+5 Minutes <br>
+This period is used for teams to prepare their responses <br>
+</p> <br>
+    <h3 style="color: gray;">Round Two <br></h3>
+<p> 
+
+Team One - 5 Minutes - Response or rebuttal of "Pro/positive" or "Arguments for"  <br>
+Team Two - 5 Minutes - Response or rebuttal of "Con/negative" or "Arguments against"  <br>
+                </p> <br>
+       <a href="mera bharat.html" class="home">Go To Home</a>
+            </div>
+        </div>
+</body>
+</html>

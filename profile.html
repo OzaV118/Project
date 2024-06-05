@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="Css/profile.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="#about">About</a>
+  
+  <a href="#">Services</a>
+  <div class="dropdown">
+    <button class="dropbtn">Our Products
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 21</a>
+      <a href="#">Link 22</a>
+      <a href="#">Link 23</a>
+    </div>
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<!-- 
+<div style="padding-left:16px">
+  <h2>Responsive Topnav with Dropdown</h2>
+  <p>Resize the browser window to see how it works.</p>
+  <p>Hover over the dropdown button to open the dropdown menu.</p>
+</div> -->
+<div class="main">
+  
+<div class="left">
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nihil sunt totam maxime ad distinctio magnam veritatis, explicabo, incidunt illum sapiente dolorum dolor tempore iure ipsa perspiciatis, maiores est itaque quasi deserunt eius! Asperiores omnis sed facere accusamus aspernatur.
+</div>
+<div class="right">
+  <img src="Images/1.png">
+</div>
+</div>
+
+<div class="main" style="transform: skew(0deg,5deg);">
+  
+  <div class="left" style="transform: skew(0deg,-5deg);">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro nihil sunt totam maxime ad distinctio magnam veritatis, explicabo, incidunt illum sapiente dolorum dolor tempore iure ipsa perspiciatis, maiores est itaque quasi deserunt eius! Asperiores omnis sed facere accusamus aspernatur.
+  </div>
+  <div class="right">
+    <img src="Images/1.png">
+  </div>
+  </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

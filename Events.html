@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mind Your Brain</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="Css/animate.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Css/animate.min.css">
+<style>
+      *
+    {
+        margin: 0%;
+        line-height: 1.75;
+        font-family: Playfair Display;
+    }
+    .left
+    {
+        width: 18%;
+        display:inline-block;
+        height: 200vw;
+        background-color:rgb(34, 37, 39);
+        color: white;
+        vertical-align: top;
+        margin: -2px;
+        text-align: center;
+        position:fixed;
+    }
+    .right
+    {
+        width: 81.25%;
+        height: 100.2vh;
+        padding-left: 290px;
+        color: white;
+        margin:-2px;
+        background-color: rgb(26,28, 30);
+        
+        display:inline-block;
+        vertical-align: top;
+        
+    }
+    .left h2,.left h4
+    {
+        
+        color: white;
+        margin: 0;
+        font-weight: normal;
+        transition: all .5s;
+    }
+    .left h2:hover
+    {
+        cursor: pointer;
+        font-size:20px;
+        text-shadow: 5px 4px 6px gray;
+        transition:all .5s;
+
+        
+    }
+    #hov
+    {
+        list-style: none;
+        font-size: 20px;
+        font-weight: normal;
+    }
+     #hov:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+        font-size:18px;
+        text-shadow: 5px 4px 6px gray;
+         transition:all .5s;
+
+         border: 5px solid gray;
+            border-radius: 27px;
+            background-color: black;
+            color: white;
+
+    }
+    .content1
+    {
+        border-radius: 30px;
+        /* margin-top: 60px; */
+        
+        display: inline-block;
+        margin-left: 60px;
+        width: 27%;
+        height: 560px;
+        background-color: rgb(34, 37, 39);
+    }
+    .content1 img
+    {
+        width: 100%;
+    }
+    .content1 img:hover
+    {
+        opacity: 0.6;
+        width: 100%;
+    }
+    .content2 img:hover
+    {
+        opacity: 0.6;
+        width: 100%;
+    }
+    .content3 img:hover
+    {
+        opacity: 0.6;
+        width: 100%;
+    }
+    .content1 h2
+    {
+        text-align: center;
+        margin-bottom: -15px;
+    }
+    .content1 i
+    {
+        padding-left: 35px;
+        font-size: smaller;
+    }
+    .content1 p
+    {
+        margin-top: 10px;
+        color: silver;
+        text-align: justify;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: small;
+    }
+    .word
+    {
+        
+        line-height: -2cm;
+        text-align: right;
+    }
+    .content2
+    {
+        border-radius: 30px;
+        /* margin-top: 60px; */
+        display: inline-block;
+        margin-left: 60px;
+        width: 27%;
+        height: 610px;
+        vertical-align: top;
+        background-color: rgb(34, 37, 39);
+    }
+    .content2 img
+    {
+        width: 100%;
+        vertical-align: top;
+    }
+    
+    .content2 h2
+    {
+        text-align: center;
+        margin-bottom: -15px;
+    }
+    .content2 i
+    {
+        padding-left: 35px;
+        font-size: smaller;
+    }
+    .content2 p
+    {
+        margin-top: 10px;
+        color: silver;
+        text-align: justify;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: small;
+    }
+    .content3
+    {
+        border-radius: 30px;
+        /* margin-top: 60px; */
+        display: inline-block;
+        margin-left: 60px;
+        width: 27%;
+        height: 600 px;
+         background-color: rgb(34, 37, 39);
+         vertical-align: top;
+    }
+    .content3 img
+    {
+        width: 100%;
+        vertical-align: top;
+    }
+    .content3 h2
+    {
+        text-align: center;
+        margin-bottom: -15px;
+    }
+    .content3 i
+    {
+        padding-left: 35px;
+        font-size: smaller;
+    }
+    .content3 p
+    {
+        margin-top: 10px;
+        color: silver;
+        text-align: justify;
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: small;
+    }
+     
+    a
+    {
+        text-decoration: none;
+        color: white;
+        transition: all 1s;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+        font-size:15px;
+        transition: all 1s;
+    }
+    .dropbtn1 {
+  background:transparent;
+  color: white;
+  /* padding: 12px; */
+  font-weight: 300;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown1 {
+  position: relative;
+  /* padding-bottom : 15px; */
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  text-align: center;
+  position: absolute;
+  background-color: rgb(52 55 57);
+  min-width: 160px;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: white;
+  text-align:center;
+  /* padding: 12px 27px; */
+  /* vertical-align: top; */
+  /* font-size: larger; */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover { color: white;
+background-color: rgb(90, 71, 153);
+}
+/* .dropdown-content1 a
+{
+	color:white;
+     background:rgb(52 55 57);
+} */
+.dropdown1:hover .dropdown-content1 {display: block;
+ 
+}
+
+.dropdown1:hover .dropbtn1 {
+  
+/* color: white;*/
+/* background-color: rgb(90, 71, 153); */
+/* border: 3px solid black; */
+/* transition:all  ease  .2s;*/ 
+text-decoration: underline;
+transition: all 1s;
+/* border-radius: 50px; */
+cursor: pointer;} 
+</style>
+</head>
+<body>
+    <div class="left">
+        <img  id="logo" src="Images/jkass.jpg" width="100px" height="100px" style="border-radius: 50%;">
+           <a href="mera bharat.html"> <h2> JKASS's School of Excellency</h2></a>
+            <h4><i>For Humanity & Excellency</i></h4>
+            <ul  style="padding-top: 150px;" type="bullet">
+            <a href="mera bharat.html">    <li id="hov" style="padding-bottom: 10px;" >Home </li></a> 
+            <a href="feedback.html">    <li id="hov" style="padding-bottom: 10px;">Feedback</li> </a>
+         <a href="https://syllabus.gtu.ac.in/Syllabus.aspx?tp=DI">       <li id="hov" style="padding-bottom: 10px;">Syllabus</li>  </a>
+        
+         <li id="hov" style="padding-bottom: 10px;"> <div class="dropdown1">
+            <button class="dropbtn1"><h4>RESULTS</h4></button>
+            <div class="dropdown-content1">
+              <a href="Images/gtu.pdf">GTU-2023</a>
+              <a href="Images/me.pdf">Mid Term</a>
+               
+            </div>
+          </div></li>  
+            </ul>
+        </div>
+        <div class="right">
+            <h2 style="text-align: center;" class="animate__animated animate__flipInY"> RECENT SCHOOL EVENTS</h2><br> 
+            <div class="content1 animate__animated animate__bounceInLeft">
+              <a href="sport.html"> <img src="https://www.dpsgs.org/palam-vihar/blog/public/assets/images/blog/banner/desktop/1700713266-DPSG%20Blog%206.jpg"></a>
+              <a href="sport.html">   <h2> Sport and Cultural Programs</h2></a>
+                <i >Hosted on 16th Feb,2024 </i> <br>
+                    <p>
+                        The role of co-curricular activities is highly underappreciated. It not only helps the students unwind and explore their non-academic interests, it also plays a vital role in fostering qualities like leadership, teamwork, critical thinking and planning and strategizing.Cultural activities are non-academic pursuits that provide students a platform to explore their interests and develop aesthetically, artistically,historically, intellectually, or socially
+                    </p>
+                    <a href="sport.html"><p class="word" style="text-align: right;">Read more ⟶</p></a>
+            </div>
+            <div class="content2 animate__animated animate__bounceInUp">
+                <a href="annul.html"> <img src="https://5.imimg.com/data5/RE/OU/GLADMIN-60885875/indian-cultural-eventz-500x500.png"></a>
+                <a href="annul.html"> <h2>Cultural and Annual Day Celebrations</h2></a>
+                <i> Hosted on 28th March,2024</i> <br>
+                    <p>We define ‘culture’ as being related to the arts and heritage, embracing artefacts and works of art, literature and the performing arts. We are talking about: culture, in all its richness and diversity, experienced as: <br>
+                        ⟶ listening <br>
+                        ⟶ playing <br>
+                        ⟶ seeing and watching <br>
+                        ⟶ making, writing and doing 
+
+                    </p>
+                    <a href="annul.html"> <p class="word" style="text-align: right;">Read more ⟶</p><a href="p2.html"></a>
+            </div>
+            <div class="content3 animate__animated animate__bounceInRight">
+             <a href="high.html">    <img src="https://media.istockphoto.com/id/1402904282/photo/a-group-of-students-hold-a-quick-discussion.jpg?s=612x612&w=0&k=20&c=LYcFwg3YUAjTm7MpW-n9RHS1gDjyZIdQOBIujuZ0c1Q="></a>
+             <a href="high.html">  <h2>High School Debate Competitions</h2></a>
+                <i>Hosted on 12th April,2024</i>
+                    <p>A debate competition in school is an organized event where students present arguments or discuss a topic from two opposing sides. The main objective is to convince others about one's viewpoint. Debates can help students develop problem-solving and innovative thinking skills, and build links between words and ideas. They can also help students explore real-world topics and issues, engage in self-reflection, and learn from their peers.</p>
+                    <a href="high.html"> <p class="word" style="text-align: right;">Read more ⟶</p></a>
+            </div>
+           
+        </div>
+   
+</body>
+</html>

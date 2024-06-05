@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="Css/animate.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Css/animate.min.css">
+<style>
+     a
+    {
+        text-decoration: none;
+        color: white;
+        transition: all 1s;
+    }
+    a:hover
+    {
+        text-decoration: underline;
+        font-size:15px;
+        transition: all 1s;
+    }
+      *
+    {
+        margin: 0%;
+        line-height: 1.75;
+        font-family: Playfair Display;
+    }
+    .left
+    {
+        width: 18%;
+        display:inline-block;
+        height: 200vw;
+        background-color:rgb(34, 37, 39);
+        color: white;
+        vertical-align: top;
+        margin: -2px;
+        text-align: center;
+        position:fixed;
+    }
+    .right
+    {
+        width: 78%;
+        height: 100%;
+        padding-left: 320px;
+        color: white;
+        margin:-2px;
+        background-color: rgb(26,28, 30);
+        padding-bottom: 20px;
+        display:inline-block;
+        vertical-align: top;
+        
+    }
+    .left h2,.left h4
+    {
+        
+        color: white;
+        margin: 0;
+        font-weight: normal;
+        transition: all .5s;
+    }
+    .left h2:hover
+    {
+        cursor: pointer;
+        font-size:20px;
+        text-shadow: 5px 4px 6px gray;
+        transition:all .5s;
+
+        
+    }
+    #hov
+    {
+        list-style: none;
+        font-size: 20px;
+        font-weight: normal;
+    }
+     #hov:hover
+    {
+        cursor: pointer;
+        text-decoration: underline;
+        font-size:18px;
+        text-shadow: 5px 4px 6px gray;
+         transition:all .5s;
+
+         border: 5px solid gray;
+            border-radius: 27px;
+            background-color: black;
+            color: white;
+
+    }
+     
+    p
+    {
+        font-size: 18px;
+        text-align: justify;
+
+    }
+    .content1
+        {
+             
+            vertical-align: top;
+            width: 70%;
+            height: 100%;
+            padding-left: 60px;
+            padding-right: 100px;
+            padding-top: 60px;
+            margin-left: 110px;
+            background-color:wheat;
+            color:  rgb(34, 37, 39);
+            font-size: 18px;
+            padding-bottom: 10px;
+        }
+        .home
+{
+  background-color:#a370f0 ;
+  padding: 10px;
+  margin-left: 350px;
+  border-radius: 40px;
+}
+.home:hover
+{
+  text-decoration: underline;
+  background-color: #714da6;
+}
+.dropbtn1 {
+  background:transparent;
+  color: white;
+  /* padding: 12px; */
+  font-weight: 300;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown1 {
+  position: relative;
+  /* padding-bottom : 15px; */
+  display: inline-block;
+}
+
+.dropdown-content1 {
+  display: none;
+  text-align: center;
+  position: absolute;
+  background-color: rgb(52 55 57);
+  min-width: 160px;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content1 a {
+  color: white;
+  text-align:center;
+  /* padding: 12px 27px; */
+  /* vertical-align: top; */
+  /* font-size: larger; */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content1 a:hover { color: white;
+background-color: rgb(90, 71, 153);
+}
+/* .dropdown-content1 a
+{
+	color:white;
+     background:rgb(52 55 57);
+} */
+.dropdown1:hover .dropdown-content1 {display: block;
+ 
+}
+
+.dropdown1:hover .dropbtn1 {
+  
+/* color: white;*/
+/* background-color: rgb(90, 71, 153); */
+/* border: 3px solid black; */
+/* transition:all  ease  .2s;*/ 
+text-decoration: underline;
+transition: all 1s;
+/* border-radius: 50px; */
+cursor: pointer;} 
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img  id="logo" src="Images/jkass.jpg" width="100px" height="100px" style="border-radius: 50%;">
+           <a href="mera bharat.html"> <h2> JKASS's School of Excellency</h2></a>
+            <h4><i>For Humanity & Excellency</i></h4>
+            <ul  style="padding-top: 150px;" type="bullet">
+            <a href="mera bharat.html">    <li id="hov" style="padding-bottom: 10px;" >Home </li></a> 
+            <a href="feedback.html">    <li id="hov" style="padding-bottom: 10px;">Feedback</li> </a>
+         <a href="https://syllabus.gtu.ac.in/Syllabus.aspx?tp=DI">       <li id="hov" style="padding-bottom: 10px;">Syllabus</li>  </a>
+          
+         <li id="hov" style="padding-bottom: 10px;"> <div class="dropdown1">
+            <button class="dropbtn1"><h4>RESULTS</h4></button>
+            <div class="dropdown-content1">
+              <a href="Images/gtu.pdf">GTU-2023</a>
+              <a href="Images/me.pdf">Mid Term</a>
+               
+            </div>
+          </div></li>  
+            </ul>
+        </div>
+        <div class="right">
+        <h1 align="center">Sports and Cultural Programs</h1>
+        <div class="content1">
+            <h2>An annual event full of activities</h2>
+            <p>
+                Every year the jkass School celebrates its Sports Day in the month of November. It is one of the most loved events of the year, the children very longingly look forward to it. The month of November is earmarked for the occasion, as, at this time, the weather is pleasing for a long span of games on the field. When this day is about to come, there appears to be a lot of activity in the entire school premises as arrangements take time.
+            </p><br>
+            <img style="width: 100%;" src="Images/spo.jpg">
+            <h2>Importance of sports
+            </h2><br>
+            <p>Sport develops a sense of friendliness among the children and develops their team spirit. It helps children to develop mental and physical toughness. The school believes that sports is an integral part of education and in jkass School, children are taught various sorts of games and are taught gross motor skills in very early stages to keep their value in life.</p>
+          <br>  <h2>The arrangements
+            </h2><br>
+            <p>The arrangements start weeks prior to the actual event starting with students practicing during school hours.
+                The class teachers and sports teachers ensure 100 % participation of the students
+                The playground is prepared beforehand for the event
+                The event is separate for the junior and the senior school children as it takes place on two different days.</p>
+                <br><h2>List of activities</h2><br>
+                <p>
+                    Our Founder welcomes and addresses the esteemed gathering of parents and guests where he talks about the importance of sports in a child’s life.
+                    The program starts with the torch relay by the sports captains of the four houses namely- Socrates, Vivekanand, Krishnamurthy, and Gita.
+                    Grades nursery to 12 participate in various races like the sprints, relays, sack race, and three-legged race, obstacle race, and skipping race.
+                    Fun time with a relay and a tug- of- war between the houses adds to the enjoyment.
+                    Various P.T. displays like aerobics, Zumba, or Yoga by the students of PYP mesmerizes the audience with their energetic performances.
+                    The ceremony commences with the wonderful ‘March Past’, where the parade is performed by all the four houses and led by their house captains. The guest of honor takes the salute of the impressive March Past of the students. The chief guest also takes the salute of the impressive March Past of the students, coupled with exciting marching music.</p><br>
+                    <img style="width: 100%;" src="Images/kab.webp">
+                   <br> <h2>Our school’s Motto  </h2><br>
+                    <p>
+                        The JKASS school has a culture and ecosystem of stress-free and caring relationships, between the educators and the children, among the children and between teachers and management/leadership team and parents. The school’s motto is ‘Know Thyself’ – hence teachers & students practice mindfulness meditation and they tend to become open-minded, balanced, reflective, and caring. The school believes itself to be the ‘Alma Mater’, that is, the second mother, of the children. Hence, the teachers care for children and the school with great care. The students grow up to be self-confident with a positive attitude and become emotionally and mentally healthy.</p>
+                        <br>
+                        <img style="width: 100%;" src="Images/foo.jpg">
+                        <br> <br>
+                        <a href="mera bharat.html" class="home">Go To Home</a>
+                    </div>
+    </div>
+</body>
+</html>
