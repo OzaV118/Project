@@ -27,7 +27,7 @@ function fun2()
   
   if(x.value.trim()=="")
   {
-  alert("please fill all the details");
+  alert("please fill up all the details");
   return false;
   }
   else
